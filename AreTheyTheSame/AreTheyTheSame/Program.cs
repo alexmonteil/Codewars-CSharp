@@ -1,5 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+
+using System.Text;
+
 static bool AreTheyTheSame(int[] a, int[] b)
 {
     if (a.Length != b.Length)
@@ -51,3 +54,4 @@ int[] c = new int[] { 1, 2, 3, 4, 5, 6 };
 
 Console.WriteLine(AreTheyTheSame(a, b));
 Console.WriteLine(AreTheyTheSame(a, c));
+
